@@ -144,7 +144,8 @@ app.post("/login",function(req,res){
 app.post("/compose", upload.single("image"), function (req, res){
 
     var mydate1 = new Date();
-    mydate1.toString();
+    mydate1.toLocaleString().split('GMT');
+   
 
 
    const name = req.body.button;
@@ -281,3 +282,5 @@ if (port == null || port == "") {
 app.listen(port,function(){
   console.log("server has started successfully");
 });
+
+// mongodb+srv://Quotopedia24:shrajanjain@cluster0.6x9bzfs.mongodb.net/To_Do_List?retryWrites=true&w=majority
