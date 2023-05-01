@@ -68,7 +68,7 @@ color: blue;
 background: linear-gradient(90deg, rgba(131,250,255,1) 0%, rgba(124,253,237,1) 54%, rgba(141,255,240,1) 99%);
 
 -webkit-box-shadow: -1px 1px 16px 11px rgba(24,45,255,0.94);
-box-shadow: -1px 1px 16px 11px rgba(24,45,255,0.94);
+box-shadow: 1px 1px 1px 1px rgba(24,45,255,0.94);
 font-family: 'Roboto', sans-serif;
 
 
