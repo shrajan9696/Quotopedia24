@@ -8,7 +8,10 @@ background: linear-gradient(90deg, rgba(180,58,157,0.8300362381280637) 7%, rgba(
 /* background: rgb(225,233,255); */
 background-color: black;
 /* background: linear-gradient(90deg, rgba(225,233,255,1) 19%, rgba(55,77,255,1) 50%, rgba(228,244,255,1) 83%); */
-color: blue;
+background-image: url(https://res.cloudinary.com/quotopedia24/image/upload/v1654891252/samples/landscapes/landscape-panorama.jpg);
+background-size: cover;
+
+color: black;
 }
 
 .container-fluid {
@@ -142,13 +145,14 @@ margin-bottom: 20px;
 }
 
 .startingcontent{
-  color: rgb(131,250,255);
-  font-size: 20px;
-background-color: blue;
+  color:#b20606;
+  font-size: 25px;
+background-color: #b0acac59;
 border-radius: 8px;
 padding: 14px;
 font-weight: bold;
 margin-bottom: 30px;
+text-align: center;
 }
 
 .composenewarticle{
@@ -274,4 +278,23 @@ margin-bottom: 30px;
   color:blue;
 	padding: 1em;
 	text-align: center;
+}
+
+
+.type {
+  display:inline-flex;
+}
+.type span {
+  word-break: break-all;
+  height: 1.2em;
+  width:0%;
+  overflow: hidden;
+  animation:t 2s linear infinite alternate;
+}
+.type span:before {
+  content:" ";
+  display:inline-block;
+}
+@keyframes t{
+  90%,100% {width:100%}
 }
